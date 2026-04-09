@@ -1,0 +1,15 @@
+{
+  "data_path": "data/pems04_fused.npz",
+  "output_dir": "outputs",
+  "batch_size": 64,
+  "epochs": 100,
+  "learning_rate": 0.002,
+  "input_window": 12,
+  "output_window": 12,
+  "traffic_dim": 3,
+  "weather_dim": 4,
+  "hidden_dim": 64,
+  "node_emb_dim": 10,
+  "time_emb_dim": 10,
+  "seed": 42
+}
